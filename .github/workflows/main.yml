@@ -25,6 +25,11 @@ jobs:
       - uses: actions/checkout@v2
         with:
           lfs: true
+          repository: faster-games/package-testbed
+      - uses: actions/checkout@v2
+        with:
+          lfs: true
+          path: Packages/com.faster-games.package-template
       - uses: actions/cache@v2
         with:
           path: Library
