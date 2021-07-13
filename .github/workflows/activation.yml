@@ -1,0 +1,26 @@
+name: Acquire activation file
+on:
+  workflow_dispatch: {}
+jobs:
+  activation:
+    name: Request manual activation file 🔑
+    runs-on: ubuntu-latest
+    steps:
+      # Check min supported version
+      - name: Get min supported version
+        id: read_file
+        uses: bengreenier-actions/shell-with-output@master
+        with:
+          command: cat package.json | jq -r '[.unity,.unityRelease] | join(".") | @sh'
+      # Request manual activation file
+      - name: Request manual activation file
+        id: getManualLicenseFile
+        uses: game-ci/unity-request-activation-file@v2
+        with:
+          unityVersion: ${{ steps.read_file.outputs.stdout }}
+      # Upload artifact (Unity_v20XX.X.XXXX.alf)
+      - name: Expose as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ steps.getManualLicenseFile.outputs.filePath }}
+          path: ${{ steps.getManualLicenseFile.outputs.filePath }}
