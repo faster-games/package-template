@@ -6,6 +6,8 @@ jobs:
     name: Request manual activation file 🔑
     runs-on: ubuntu-latest
     steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
       # Check min supported version
       - name: Get min supported version
         id: read_file
