@@ -8,6 +8,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - name: debug
+        run: cat package.json
+      - name: Get min supported version
+        id: cat_file
+        uses: bengreenier-actions/shell-with-output@master
+        with:
+          command: cat package.json
       # Check min supported version
       - name: Get min supported version
         id: read_file
