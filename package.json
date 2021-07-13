@@ -1,0 +1,21 @@
+{
+  "name": "com.faster-games.package-template",
+  "version": "0.0.1",
+  "displayName": "PackageTemplate",
+  "description": "This is a template for use when creating other packages.",
+  "unity": "2020.3",
+  "unityRelease": "13f1",
+  "documentationUrl": "https://faster-games.com/docs/package-template",
+  "changelogUrl": "https://faster-games.com/docs/package-template/changelog",
+  "licensesUrl": "https://faster-games.com/docs/package-template",
+  "dependencies": {},
+  "keywords": [
+    "faster-games",
+    "template"
+  ],
+  "author": {
+    "name": "Ben Greenier",
+    "email": "ben+faster-games@bengreenier.com",
+    "url": "https://bengreenier.com"
+  }
+}

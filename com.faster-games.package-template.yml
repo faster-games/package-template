@@ -1,0 +1,16 @@
+name: com.faster-games.template
+displayName: PackageTemplate
+description: "This is a template for use when creating other packages."
+repoUrl: 'https://github.com/faster-games/package-template'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - faster-games
+  - template
+hunter: bengreenier
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
