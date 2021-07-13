@@ -20,7 +20,7 @@ jobs:
         id: read_file
         uses: bengreenier-actions/shell-with-output@master
         with:
-          command: cat package.json | jq -r '[.unity,.unityRelease] | join(".") | @sh'
+          command: cd /github/workspace && cat package.json | jq -r '[.unity,.unityRelease] | join(".") | @sh'
       # Request manual activation file
       - name: Request manual activation file
         id: getManualLicenseFile
