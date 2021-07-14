@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/faster-games/package-template/compare/v1.0.5...v1.0.6) (2021-07-14)
+
+
+### Bug Fixes
+
+* **upkg:** Create dist directory ✨ ([bcbf510](https://github.com/faster-games/package-template/commit/bcbf510bad6b7bba173f3111205d1a770f939d08))
+
 ## [1.0.5](https://github.com/faster-games/package-template/compare/v1.0.4...v1.0.5) (2021-07-14)
 
 
