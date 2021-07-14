@@ -54,7 +54,7 @@ jobs:
       - name: Export .unitypackage from Unity Project
         uses: FrostBanditTeam/extract-unity-package-action@1
         with:
-          packagePath: Packages/com.faster-games.package-template
+          packagePath: ./
           outputPackagePath: dist/com.faster-games.package-template.unitypackage
       - name: Install semantic-release plugins
         run: npm i --no-save @semantic-release/git @semantic-release/changelog
