@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/faster-games/package-template/compare/v1.0.3...v1.0.4) (2021-07-14)
+
+
+### Bug Fixes
+
+* **release:** Update package generation 📦 ([c8652cb](https://github.com/faster-games/package-template/commit/c8652cb1a0426e00735b1654aaa418c70c0ce90c))
+
 ## [1.0.3](https://github.com/faster-games/package-template/compare/v1.0.2...v1.0.3) (2021-07-14)
 
 
