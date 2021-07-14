@@ -1,3 +1,14 @@
+## [1.0.3](https://github.com/faster-games/package-template/compare/v1.0.2...v1.0.3) (2021-07-14)
+
+
+### Bug Fixes
+
+* **ci:** Restructure CI (again) 😅 ([6cef4bb](https://github.com/faster-games/package-template/commit/6cef4bb74514ca02bbc4b5e0b7320e125d649d51))
+* **release:** Include unitypackage 🎁 ([#9](https://github.com/faster-games/package-template/issues/9)) ([dd8991c](https://github.com/faster-games/package-template/commit/dd8991cd4fc248ad7ba07b63098f8a4ecbbcb728))
+* **release:** No LFS  📦 ([8559080](https://github.com/faster-games/package-template/commit/855908023597af3cd6e2b195d5457cbea963de5f))
+* **release:** Update github assets field 🐛 ([#10](https://github.com/faster-games/package-template/issues/10)) ([230c0b9](https://github.com/faster-games/package-template/commit/230c0b9533d2608ecec470ec9cf621d0989af7ba))
+* **release-rc:** Make releaserc valid json again 😅 ([5d8cfea](https://github.com/faster-games/package-template/commit/5d8cfea0b5c3ac2205f374715b43e0f36cfb80b5))
+
 ## [1.0.2](https://github.com/faster-games/package-template/compare/v1.0.1...v1.0.2) (2021-07-14)
 
 
