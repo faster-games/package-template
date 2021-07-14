@@ -15,12 +15,6 @@ jobs:
   ci:
     name: Test in ${{ matrix.testMode }}
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        testMode:
-          - playmode
-          - editmode
     steps:
       - uses: actions/checkout@v2
         with:
@@ -37,15 +31,25 @@ jobs:
           restore-keys: |
             Library-
       - uses: game-ci/unity-test-runner@v2
-        id: tests
+        id: playmode_tests
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           projectPath: ./
-          testMode: ${{ matrix.testMode }}
-          artifactsPath: ${{ matrix.testMode }}-artifacts
+          testMode: playmode
+          artifactsPath: playmode-artifacts
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          checkName: ${{ matrix.testMode }} Test Results
+          checkName: Play Mode Test Results
+      - uses: game-ci/unity-test-runner@v2
+        id: editmode_tests
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          projectPath: ./
+          testMode: editmode
+          artifactsPath: editmode-artifacts
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          checkName: Edit Mode Test Results
       - name: Export .unitypackage from Unity Project
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: FrostBanditTeam/extract-unity-package-action@1
