@@ -12,7 +12,7 @@ on:
 
 jobs:
   # Tests
-  testAllModes:
+  ci:
     name: Test in ${{ matrix.testMode }}
     runs-on: ubuntu-latest
     strategy:
@@ -46,3 +46,16 @@ jobs:
           artifactsPath: ${{ matrix.testMode }}-artifacts
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           checkName: ${{ matrix.testMode }} Test Results
+      - name: Export .unitypackage from Unity Project
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: FrostBanditTeam/extract-unity-package-action@1
+        with:
+          packagePath: Packages/com.faster-games.package-template
+          outputPackagePath: dist/com.faster-games.package-template.unitypackage
+      - name: Install semantic-release plugins
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: npm i --no-save @semantic-release/git @semantic-release/changelog
+      - uses: codfish/semantic-release-action@v1
+        if: ${{ github.ref == 'refs/heads/main' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
