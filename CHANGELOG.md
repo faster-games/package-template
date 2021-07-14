@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/faster-games/package-template/compare/v1.0.6...v1.0.7) (2021-07-14)
+
+
+### Bug Fixes
+
+* **release:** Update path to unitypackage ☑ ([236e620](https://github.com/faster-games/package-template/commit/236e6203324c1daafc217ee5768e111797ec129b))
+
 ## [1.0.6](https://github.com/faster-games/package-template/compare/v1.0.5...v1.0.6) (2021-07-14)
 
 

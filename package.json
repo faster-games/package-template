@@ -1,6 +1,6 @@
 {
   "name": "com.faster-games.package-template",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "displayName": "PackageTemplate",
   "description": "This is a template for use when creating other packages.",
   "unity": "2020.3",
