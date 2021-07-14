@@ -7,8 +7,8 @@
     ["@semantic-release/npm", {
       "npmPublish": false
     }],
-    ["@semantic-release/git", {                                                              
-      "assets": ["package.json", "CHANGELOG.md", "!**/*.unitypackage"],                                            
+    ["@semantic-release/git", {
+      "assets": ["package.json", "CHANGELOG.md", "!**/*.unitypackage"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
     ["@semantic-release/github", {
