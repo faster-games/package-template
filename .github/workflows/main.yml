@@ -52,7 +52,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Export .unitypackage from Unity Project
-        uses: FrostBanditTeam/extract-unity-package-action@1
+        uses: bengreenier-actions/Unity-Package-Exporter@v1.0.0
         with:
           packagePath: ./
           outputPackagePath: dist/com.faster-games.package-template.unitypackage
