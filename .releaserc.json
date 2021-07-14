@@ -13,7 +13,7 @@
     }],
     ["@semantic-release/github", {
       "assets": [{
-        "path": "dist/faster-games.package-template.unitypackage",
+        "path": "dist/com.faster-games.package-template.unitypackage",
         "name": "com.faster-games.package-template-${nextRelease.gitTag}.unitypackage",
         "label": "FasterGames.PackageTemplate ${nextRelease.gitTag}"
       }]
