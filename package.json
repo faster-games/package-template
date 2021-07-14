@@ -8,7 +8,9 @@
   "documentationUrl": "https://faster-games.com/docs/package-template",
   "changelogUrl": "https://faster-games.com/docs/package-template/changelog",
   "licensesUrl": "https://faster-games.com/docs/package-template",
-  "dependencies": {},
+  "dependencies": {
+    "@semantic-release/git": "^9.0.0"
+  },
   "keywords": [
     "faster-games",
     "template"
