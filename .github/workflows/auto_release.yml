@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Install semantic-release plugins
-        run: npm i -g @semantic-release/git @semantic-release/changelog
+        run: npm i --no-save @semantic-release/git @semantic-release/changelog
       - uses: codfish/semantic-release-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
