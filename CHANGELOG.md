@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/faster-games/package-template/compare/v1.0.4...v1.0.5) (2021-07-14)
+
+
+### Bug Fixes
+
+* **packaging:** Use custom unity package gen 📦 ([#11](https://github.com/faster-games/package-template/issues/11)) ([6a57e68](https://github.com/faster-games/package-template/commit/6a57e68699b7c03a34ae73a0d7c18584143f2ef1))
+
 ## [1.0.4](https://github.com/faster-games/package-template/compare/v1.0.3...v1.0.4) (2021-07-14)
 
 
