@@ -12,9 +12,15 @@ on:
 
 jobs:
   # Tests
-  ci:
-    name: CI
+  testAllModes:
+    name: Test in ${{ matrix.testMode }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        testMode:
+          - playmode
+          - editmode
     steps:
       - uses: actions/checkout@v2
         with:
@@ -31,35 +37,31 @@ jobs:
           restore-keys: |
             Library-
       - uses: game-ci/unity-test-runner@v2
-        id: playmode_tests
+        id: tests
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           projectPath: ./
-          testMode: playmode
-          artifactsPath: playmode-artifacts
+          testMode: ${{ matrix.testMode }}
+          artifactsPath: ${{ matrix.testMode }}-artifacts
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          checkName: Play Mode Test Results
-      - uses: game-ci/unity-test-runner@v2
-        id: editmode_tests
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          checkName: ${{ matrix.testMode }} Test Results
+  release:
+    name: Release
+    needs: [testAllModes]
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
         with:
-          projectPath: ./
-          testMode: editmode
-          artifactsPath: editmode-artifacts
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          checkName: Edit Mode Test Results
+          lfs: true
       - name: Export .unitypackage from Unity Project
-        if: ${{ github.ref == 'refs/heads/main' }}
         uses: FrostBanditTeam/extract-unity-package-action@1
         with:
           packagePath: Packages/com.faster-games.package-template
           outputPackagePath: dist/com.faster-games.package-template.unitypackage
       - name: Install semantic-release plugins
-        if: ${{ github.ref == 'refs/heads/main' }}
         run: npm i --no-save @semantic-release/git @semantic-release/changelog
       - uses: codfish/semantic-release-action@v1
-        if: ${{ github.ref == 'refs/heads/main' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
