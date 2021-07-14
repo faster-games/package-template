@@ -24,11 +24,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          lfs: true
           repository: faster-games/package-testbed
       - uses: actions/checkout@v2
         with:
-          lfs: true
           path: Packages/com.faster-games.package-template
       - uses: actions/cache@v2
         with:
@@ -53,8 +51,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          lfs: true
       - name: Export .unitypackage from Unity Project
         uses: FrostBanditTeam/extract-unity-package-action@1
         with:
