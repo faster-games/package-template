@@ -1,3 +1,6 @@
 .git/
 .github/
 dist/
+.gitignore
+.gitattributes
+.releaserc.json
