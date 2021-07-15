@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/faster-games/package-template/compare/v1.0.7...v1.0.8) (2021-07-15)
+
+
+### Bug Fixes
+
+* **docs:** Update readme, ignore un-used files ✨ ([#12](https://github.com/faster-games/package-template/issues/12)) ([5f1e92e](https://github.com/faster-games/package-template/commit/5f1e92e78472cf61098aefee6e519287813b2ba1))
+
 ## [1.0.7](https://github.com/faster-games/package-template/compare/v1.0.6...v1.0.7) (2021-07-14)
 
 
