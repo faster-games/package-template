@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/faster-games/package-template/compare/v1.0.8...v1.0.9) (2021-07-15)
+
+
+### Bug Fixes
+
+* **meta:** Add missing unity metadata 🍩 ([01a0e63](https://github.com/faster-games/package-template/commit/01a0e63a6fd18a2a2e3b3c52042b81f8fcb79de6))
+
 ## [1.0.8](https://github.com/faster-games/package-template/compare/v1.0.7...v1.0.8) (2021-07-15)
 
 
