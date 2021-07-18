@@ -1,0 +1,59 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": ["Runtime/**/*.cs", "Editor/**/*.cs"]
+        }
+      ],
+      "dest": "dist/.tmp/ref",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["**/*.yml"],
+        "src": "dist/.tmp/ref/",
+        "dest": "ref/"
+      },
+      {
+        "files": ["**/*.md", "**/toc.yml"],
+        "src": "Documentation~/",
+        "dest": "./"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          ".github/favicon.ico",
+          ".github/header.png",
+          ".github/logo.svg"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "dest": "dist/docs",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "dist/.unityfx/templates/default",
+      "dist/.unityfx/templates/unity"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false,
+    "globalMetadata": {
+      "_appTitle": "PackageTemplate",
+      "_appFooter": "Copyright FasterGames ©",
+      "_description": "This is a template for use when creating other packages.",
+      "_appLogoPath": ".github/logo.svg",
+      "_appFaviconPath": ".github/favicon.ico",
+      "_enableSearch": false
+    }
+  }
+}
