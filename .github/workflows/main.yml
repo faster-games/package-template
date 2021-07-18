@@ -64,7 +64,7 @@ jobs:
         with:
           packagePath: ./
           outputPackagePath: dist/com.faster-games.package-template.unitypackage
-      - uses: nikeee/docfx-action@v1.0.0
+      - uses: bengreenier-actions/docfx-action@v1.0.0
         name: Build docs
         with:
           args: ./docfx.json

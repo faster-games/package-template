@@ -1,6 +1,7 @@
 .git/
 .github/
 dist/
+Documentation~/
 node_modules/
 .gitignore
 .gitattributes
