@@ -5,10 +5,10 @@
   "files": [
     {
       "type": "Resource",
-      "source_relative_path": ".github/favicon.ico",
+      "source_relative_path": ".metadata/favicon.ico",
       "output": {
         "resource": {
-          "relative_path": ".github/favicon.ico"
+          "relative_path": ".metadata/favicon.ico"
         }
       },
       "is_incremental": false,
@@ -16,10 +16,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": ".github/header.png",
+      "source_relative_path": ".metadata/header.png",
       "output": {
         "resource": {
-          "relative_path": ".github/header.png"
+          "relative_path": ".metadata/header.png"
         }
       },
       "is_incremental": false,
@@ -27,10 +27,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": ".github/logo.svg",
+      "source_relative_path": ".metadata/logo.svg",
       "output": {
         "resource": {
-          "relative_path": ".github/logo.svg"
+          "relative_path": ".metadata/logo.svg"
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "AkBM+/Z3D3VJ4x1yN1mm6g=="
+          "hash": "b84jhLnbW4b9w7sV1hEe1Q=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/getting-started.html",
-          "hash": "R4VcJN3p2qj2CXIbG2FJ/g=="
+          "hash": "OmDbfKYuvBXgTFEYgJC0Yw=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.Editor.EditorExample.html",
-          "hash": "QRujFc2bA8DVF1lzfDjnQQ=="
+          "hash": "rPzn4C3RsAob+hxpNKGaSQ=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.Editor.html",
-          "hash": "ppsQ+4m2uTipiDlYlA4cxQ=="
+          "hash": "0MRbakhRqSM/Xx9xIyDdjw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.RuntimeExample.html",
-          "hash": "1LFDHWH0UTzlVqME+EQXAg=="
+          "hash": "4gU0yBB8Mg3H0fTTJYPn6w=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.html",
-          "hash": "tJYKxbfYrMhBSGoBoT7DIA=="
+          "hash": "lYEYB7Ue7WKonZIVipZgXw=="
         }
       },
       "is_incremental": false,
