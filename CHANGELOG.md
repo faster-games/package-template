@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/faster-games/package-template/compare/v1.0.9...v1.1.0) (2021-07-18)
+
+
+### Features
+
+* **docs:** Generate docs site 📖 ([#13](https://github.com/faster-games/package-template/issues/13)) ([0444793](https://github.com/faster-games/package-template/commit/044479393a82f915dfde6ddb2ea4e7f1c5f05c6d))
+
 ## [1.0.9](https://github.com/faster-games/package-template/compare/v1.0.8...v1.0.9) (2021-07-15)
 
 
