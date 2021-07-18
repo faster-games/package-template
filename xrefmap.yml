@@ -3,25 +3,25 @@ sorted: true
 references:
 - uid: FasterGames.PackageTemplate
   name: FasterGames.PackageTemplate
-  href: ref/FasterGames.PackageTemplate.yml
+  href: ref/FasterGames.PackageTemplate.html
   commentId: N:FasterGames.PackageTemplate
   fullName: FasterGames.PackageTemplate
   nameWithType: FasterGames.PackageTemplate
 - uid: FasterGames.PackageTemplate.Editor
   name: FasterGames.PackageTemplate.Editor
-  href: ref/FasterGames.PackageTemplate.Editor.yml
+  href: ref/FasterGames.PackageTemplate.Editor.html
   commentId: N:FasterGames.PackageTemplate.Editor
   fullName: FasterGames.PackageTemplate.Editor
   nameWithType: FasterGames.PackageTemplate.Editor
 - uid: FasterGames.PackageTemplate.Editor.EditorExample
   name: EditorExample
-  href: ref/FasterGames.PackageTemplate.Editor.EditorExample.yml
+  href: ref/FasterGames.PackageTemplate.Editor.EditorExample.html
   commentId: T:FasterGames.PackageTemplate.Editor.EditorExample
   fullName: FasterGames.PackageTemplate.Editor.EditorExample
   nameWithType: EditorExample
 - uid: FasterGames.PackageTemplate.RuntimeExample
   name: RuntimeExample
-  href: ref/FasterGames.PackageTemplate.RuntimeExample.yml
+  href: ref/FasterGames.PackageTemplate.RuntimeExample.html
   commentId: T:FasterGames.PackageTemplate.RuntimeExample
   fullName: FasterGames.PackageTemplate.RuntimeExample
   nameWithType: RuntimeExample

@@ -35,6 +35,114 @@
       },
       "is_incremental": false,
       "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation~/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "cbZAKv1Fztzz3da26phkbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation~/manual/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started.html",
+          "hash": "GxeWszJqkz0LRSLODLTvEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Documentation~/manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "VOhtdgAsKfqUMk+l/T2FQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Documentation~/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "69ctwpWZty97sa7RIwyxMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.PackageTemplate.Editor.EditorExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.PackageTemplate.Editor.EditorExample.html",
+          "hash": "QRujFc2bA8DVF1lzfDjnQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.PackageTemplate.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.PackageTemplate.Editor.html",
+          "hash": "ppsQ+4m2uTipiDlYlA4cxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.PackageTemplate.RuntimeExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.PackageTemplate.RuntimeExample.html",
+          "hash": "1LFDHWH0UTzlVqME+EQXAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.PackageTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.PackageTemplate.html",
+          "hash": "tJYKxbfYrMhBSGoBoT7DIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "dist/.tmp/ref/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/toc.html",
+          "hash": "UwHrrbLSBxHLh8TgENxm4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     }
   ],
   "incremental_info": [
