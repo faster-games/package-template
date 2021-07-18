@@ -48,8 +48,8 @@
       "_appTitle": "PackageTemplate",
       "_appFooter": "Copyright FasterGames ©",
       "_description": "This is a template for use when creating other packages.",
-      "_appLogoPath": "Documentation~/logo.svg",
-      "_appFaviconPath": "Documentation~/favicon.ico",
+      "_appLogoPath": "logo.svg",
+      "_appFaviconPath": "favicon.ico",
       "_enableSearch": false
     }
   }
