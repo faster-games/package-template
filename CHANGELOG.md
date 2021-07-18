@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/faster-games/package-template/compare/v1.1.3...v1.1.4) (2021-07-18)
+
+
+### Bug Fixes
+
+* **doc-site:** Reorganize assets 🎨 ([70f0c7f](https://github.com/faster-games/package-template/commit/70f0c7f68743cb7be77640aa6460b362165678b1))
+
 ## [1.1.3](https://github.com/faster-games/package-template/compare/v1.1.2...v1.1.3) (2021-07-18)
 
 
