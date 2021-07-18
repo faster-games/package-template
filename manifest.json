@@ -5,10 +5,10 @@
   "files": [
     {
       "type": "Resource",
-      "source_relative_path": ".metadata/favicon.ico",
+      "source_relative_path": "Documentation~/favicon.ico",
       "output": {
         "resource": {
-          "relative_path": ".metadata/favicon.ico"
+          "relative_path": "favicon.ico"
         }
       },
       "is_incremental": false,
@@ -16,21 +16,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": ".metadata/header.png",
+      "source_relative_path": "Documentation~/header.png",
       "output": {
         "resource": {
-          "relative_path": ".metadata/header.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": ".metadata/logo.svg",
-      "output": {
-        "resource": {
-          "relative_path": ".metadata/logo.svg"
+          "relative_path": "header.png"
         }
       },
       "is_incremental": false,
@@ -42,7 +31,18 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "b84jhLnbW4b9w7sV1hEe1Q=="
+          "hash": "DlExq5Cfu8ASfIiX03qohQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Documentation~/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/getting-started.html",
-          "hash": "OmDbfKYuvBXgTFEYgJC0Yw=="
+          "hash": "HWTt1fHSs/5F5fjIB/JG2A=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.Editor.EditorExample.html",
-          "hash": "rPzn4C3RsAob+hxpNKGaSQ=="
+          "hash": "cShlpBPV89fo6iBrMawGGg=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.Editor.html",
-          "hash": "0MRbakhRqSM/Xx9xIyDdjw=="
+          "hash": "qWz/ZZtWuoXe9WiyVgBCjA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.RuntimeExample.html",
-          "hash": "4gU0yBB8Mg3H0fTTJYPn6w=="
+          "hash": "HkgWIEhHRwbiY6Woym5FJw=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.html",
-          "hash": "lYEYB7Ue7WKonZIVipZgXw=="
+          "hash": "43QhpkLtSkbBeTo2pbtSCg=="
         }
       },
       "is_incremental": false,
