@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/faster-games/package-template/compare/v1.1.1...v1.1.2) (2021-07-18)
+
+
+### Bug Fixes
+
+* **pkg:** Ignore node_modules in unity package 🐛 ([842da59](https://github.com/faster-games/package-template/commit/842da59b3f73433cfbc199c5214735e2965b6249))
+
 ## [1.1.1](https://github.com/faster-games/package-template/compare/v1.1.0...v1.1.1) (2021-07-18)
 
 
