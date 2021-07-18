@@ -47,7 +47,7 @@ jobs:
   release:
     name: Release
     needs: [testAllModes]
-    if: ${{ github.ref == 'refs/heads/main' }}
+    # if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -68,6 +68,8 @@ jobs:
         name: Build docs
         with:
           args: ./docfx.json
+      - name: debug
+        run: ls -al ./dist/
       - name: Deploy to GitHub Pages
         uses: Cecilapp/GitHub-Pages-deploy@v3
         env:
