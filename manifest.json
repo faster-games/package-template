@@ -31,7 +31,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "DlExq5Cfu8ASfIiX03qohQ=="
+          "hash": "ttyys31FJmKhDtclKBDBxw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/getting-started.html",
-          "hash": "HWTt1fHSs/5F5fjIB/JG2A=="
+          "hash": "e/aXf4pWcoLInx0A9v2eQQ=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.Editor.EditorExample.html",
-          "hash": "cShlpBPV89fo6iBrMawGGg=="
+          "hash": "UZYPvOrrRkOOMYPOHEZ33g=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.Editor.html",
-          "hash": "qWz/ZZtWuoXe9WiyVgBCjA=="
+          "hash": "QNkVaF84urpTpYfnkqGzsg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.RuntimeExample.html",
-          "hash": "HkgWIEhHRwbiY6Woym5FJw=="
+          "hash": "VibICgW6481gzHPWn2vVBA=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.PackageTemplate.html",
-          "hash": "43QhpkLtSkbBeTo2pbtSCg=="
+          "hash": "ssly34z/+JcUf1OXNexQCw=="
         }
       },
       "is_incremental": false,
