@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/faster-games/package-template/compare/v1.1.2...v1.1.3) (2021-07-18)
+
+
+### Bug Fixes
+
+* **ci:** upkg ignore docs, upgrade docfx in ci ✨ ([ef872d8](https://github.com/faster-games/package-template/commit/ef872d84be9fd11cd16077aa6599ab281d45da0f))
+
 ## [1.1.2](https://github.com/faster-games/package-template/compare/v1.1.1...v1.1.2) (2021-07-18)
 
 
