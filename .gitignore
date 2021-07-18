@@ -57,3 +57,14 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# docfx
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
+_site
+
+# general dist
+dist/
