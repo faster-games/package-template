@@ -1,5 +1,6 @@
 .git/
 .github/
+.metadata/
 dist/
 Documentation~/
 node_modules/
