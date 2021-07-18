@@ -53,16 +53,17 @@ jobs:
       - uses: actions/checkout@v2
       - name: Create dist directory
         run: mkdir dist/
-      - name: Export .unitypackage from Unity Project
+      - uses: actions/checkout@v2
+        with:
+          repository: faster-games/UnityFX
+          path: dist/.unityfx
+      - name: Install semantic-release plugins
+        run: npm i --no-save @semantic-release/git @semantic-release/changelog
+      - name: Export .unitypackage
         uses: bengreenier-actions/Unity-Package-Exporter@v1.0.0
         with:
           packagePath: ./
           outputPackagePath: dist/com.faster-games.package-template.unitypackage
-      - name: Install semantic-release plugins
-        run: npm i --no-save @semantic-release/git @semantic-release/changelog
-      - uses: codfish/semantic-release-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: nikeee/docfx-action@v1.0.0
         name: Build docs
         with:
@@ -76,3 +77,7 @@ jobs:
           build_dir: dist/docs
           cname: package-template.faster-games.com
           jekyll: no
+      - name: Publish Release
+        uses: codfish/semantic-release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
