@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/faster-games/package-template/compare/v1.1.0...v1.1.1) (2021-07-18)
+
+
+### Bug Fixes
+
+* **release:** Reorder CI steps 😅 ([90716ee](https://github.com/faster-games/package-template/commit/90716ee305b36abdf7d972864dce928700031cec))
+
 # [1.1.0](https://github.com/faster-games/package-template/compare/v1.0.9...v1.1.0) (2021-07-18)
 
 
