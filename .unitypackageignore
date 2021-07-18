@@ -1,6 +1,7 @@
 .git/
 .github/
 dist/
+node_modules/
 .gitignore
 .gitattributes
 .releaserc.json
