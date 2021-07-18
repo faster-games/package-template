@@ -26,11 +26,8 @@
     ],
     "resource": [
       {
-        "files": [
-          ".github/favicon.ico",
-          ".github/header.png",
-          ".github/logo.svg"
-        ]
+        "files": ["favicon.ico", "header.png", "logo.svg"],
+        "src": "Documentation~/"
       }
     ],
     "overwrite": [],
@@ -51,8 +48,8 @@
       "_appTitle": "PackageTemplate",
       "_appFooter": "Copyright FasterGames ©",
       "_description": "This is a template for use when creating other packages.",
-      "_appLogoPath": ".github/logo.svg",
-      "_appFaviconPath": ".github/favicon.ico",
+      "_appLogoPath": "logo.svg",
+      "_appFaviconPath": "favicon.ico",
       "_enableSearch": false
     }
   }
