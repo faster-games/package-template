@@ -69,7 +69,7 @@ jobs:
         with:
           args: ./docfx.json
       - name: debug
-        run: ls -al ./dist/
+        run: ls -alR ./dist/
       - name: Deploy to GitHub Pages
         uses: Cecilapp/GitHub-Pages-deploy@v3
         env:
