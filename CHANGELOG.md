@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/faster-games/package-template/compare/v1.1.4...v1.1.5) (2021-07-20)
+
+
+### Bug Fixes
+
+* **ignore:** Ignore non-unity files ❌ ([51b0cce](https://github.com/faster-games/package-template/commit/51b0cce0957a124d5718a325ce8ddcaff44e0b37))
+
 ## [1.1.4](https://github.com/faster-games/package-template/compare/v1.1.3...v1.1.4) (2021-07-18)
 
 
