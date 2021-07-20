@@ -66,5 +66,8 @@ crashlytics-build.properties
 /**/obj/
 _site
 
-# general dist
+# general non-unity stuff
 dist/
+dist.meta
+obj/
+obj.meta
