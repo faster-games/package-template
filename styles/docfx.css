@@ -601,8 +601,8 @@ body .toc{
 }
 .toc-filter > .clear-icon {
   position: absolute;
-  top: 10px;
-  right: 5px;
+  top: 18px;
+  right: 18px;
 }
 .article {
   margin-top: 120px;
